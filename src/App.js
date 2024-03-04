@@ -8,6 +8,7 @@ import Work from './Components/Work';
 import Projects from './Components/Projects';
 import SocialLife from './Components/SocialLife';
 import Testimonials from './Components/Testimonials';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 function App() {
   return (
