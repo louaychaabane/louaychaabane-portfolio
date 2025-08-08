@@ -381,49 +381,72 @@ body {
   font-size: 70px;
   font-family: Bai Jamjuree;
 }
-
-.work-card{
+.work-card {
   border-bottom: 2px solid white;
   border-left: 1px solid white;
-  width: 400px;
+  width: 250px; /* reduced from 400px */
   color: white;
-  padding: 20px;
+  padding: 15px; /* slightly smaller padding */
   font-family: Bai Jamjuree;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: radial-gradient(ellipse at left, #1b2735 0%, #090a0f 100%);
-  border-radius: 20px;
+  border-radius: 15px; /* slightly smaller radius */
 }
-.work-card img{
-  width: 80px;
-  margin: 15px;
-  
+
+.work-card img {
+  width: 60px; /* reduced image size */
+  margin: 10px;
 }
-.work-card h3{
-  font-size: 29px;
-  margin: 10px 0;
+
+.work-card h3 {
+  font-size: 20px; /* smaller heading */
+  margin: 8px 0;
   text-align: center;
 }
-.work-card h4{
-  font-size: 16px;
+
+.work-card h4 {
+  font-size: 14px;
   font-family: Bai Jamjuree;
   font-weight: 400;
   margin: 0;
 }
-.work-card p{
-  font-size: 15px;
-  margin-top: 15px;
+
+.work-card p {
+  font-size: 13px;
+  margin-top: 10px;
   text-align: center;
-  width: 350px;
+  width: 220px; /* adjusted to match card width */
 }
+
 .work-cards{
   display: flex;
   justify-content: center;
   gap: 35px;
   
 }
+
+.current-job {
+  width: 400px; /* bigger than the normal 250px */
+  padding: 10px;
+  border: 2px solid #5EA1F2; /* optional highlight */
+}
+
+.current-job img {
+  width: 80px; /* larger logo */
+}
+
+.current-job h3 {
+  font-size: 22px;
+}
+
+.current-job p {
+  font-size: 14px;
+  width: 320px;
+}
+
 
 .projects{
   height: 100vh;
