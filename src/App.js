@@ -9,6 +9,7 @@ import Projects from './Components/Projects';
 import SocialLife from './Components/SocialLife';
 import Testimonials from './Components/Testimonials';
 import { SpeedInsights } from "@vercel/speed-insights/react"
+import Certifications from './Components/Certifications';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <div id="about"><About /></div>
         <Overview />
         <div id="work"><Work /></div>
+        <Certifications/>
         <Projects />
         <div id="social-life"><SocialLife /></div>
         <Testimonials />

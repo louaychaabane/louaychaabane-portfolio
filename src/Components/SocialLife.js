@@ -11,7 +11,7 @@ export default function SocialLife() {
             <VerticalTimeline>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    date="January 2023 - Now"
+                    date="January 2023 - December 2023"
                     dateClassName="custom-date-class"
                     iconStyle={{ background: 'white', color: '#fff' }}
                     icon={<img src={require("../images/jci.png")} className="social-life-logo" />}
@@ -22,7 +22,7 @@ export default function SocialLife() {
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    date="January 2022 - January 2023"
+                    date="January 2022 - December 2022"
                     dateClassName="custom-date-class"
                     iconStyle={{ background: 'white', color: '#fff' }}
                     icon={<img src={require("../images/jci.png")} className="social-life-logo" />}

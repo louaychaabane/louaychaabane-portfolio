@@ -428,6 +428,64 @@ body {
   
 }
 
+.certifications h1{
+  color: white;
+  margin-left: 10%;
+  margin-top: 5%;
+  font-size: 70px;
+  font-family: Bai Jamjuree;
+}
+
+.cert-card {
+  border-bottom: 2px solid white;
+  border-left: 1px solid white;
+  width: 250px;
+  color: white;
+  padding: 15px;
+  font-family: Bai Jamjuree;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(ellipse at left, #1b2735 0%, #090a0f 100%);
+  border-radius: 15px;
+  text-align: center;
+}
+
+.cert-card img {
+  width: 60px;
+  margin: 10px;
+}
+
+.cert-card h4 {
+  font-size: 20px;
+  margin: 8px 0;
+}
+
+.cert-card small {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 8px;
+  font-family: Bai Jamjuree;
+}
+
+.cert-card p a {
+  font-size: 13px;
+  color: #66ccff; /* a nice link color */
+  text-decoration: none;
+}
+
+.cert-card p a:hover {
+  text-decoration: underline;
+}
+
+.cert-cards {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+
 .current-job {
   width: 400px; /* bigger than the normal 250px */
   padding: 10px;
@@ -827,7 +885,7 @@ body {
     
   }
 
-
+/* cerifs */
   /* projects */
 
   .projects{
