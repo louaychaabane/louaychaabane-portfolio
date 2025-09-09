@@ -12,7 +12,7 @@ export default function About() {
             
             <h3>a <TypingEffect words={words} speed={typingSpeed} /></h3>
             <h4><span className="rect-s">+100</span> Web Projects ({new Date().getFullYear() - 2022} years)</h4>
-            <h4><span className="rect-s">+700</span> Freelance Graphic Design Projects ({new Date().getFullYear() - 2018} years)</h4>
+            <h4><span className="rect-s">+500</span> Graphic Design Projects ({new Date().getFullYear() - 2018} years)</h4>
             <h4><span className="rect-s">4</span> Training sessions presented</h4>
             <img src={require("../images/avatar.png")} className="avatar" />
             <div class="flex-center">

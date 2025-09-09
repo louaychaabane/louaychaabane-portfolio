@@ -81,13 +81,18 @@ export default function Overview() {
         <i class="devicon-gitlab-plain-wordmark colored"></i>
 
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" />
+
+        <i class="devicon-kubernetes-plain colored"></i>
+
+        <i class="devicon-terraform-plain colored"></i>
+
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" />
 
-        <i class="devicon-photoshop-plain"></i>
+        <i class="devicon-photoshop-plain colored"></i>
 
         <i class="devicon-illustrator-plain colored"></i>
 
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xd/xd-plain.svg" />
+        {/* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xd/xd-plain.svg" /> */}
         <i class="devicon-figma-plain colored"></i>
       </div>
     </div>
