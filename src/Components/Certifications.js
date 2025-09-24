@@ -10,6 +10,12 @@ export default function Certifications() {
       <div className="cert-cards">
         <CertificationCard
           logo="oracle.png"
+          name="Oracle Cloud Infrastructure 2025 Multicloud Architect Professional"
+          date="2025"
+          verificationLink="https://catalog-education.oracle.com/ords/certview/sharebadge?id=CF3CFF6D34A6FA6CABD1AC56261364D409A18C6ADE5F91F42A17B2BD8DD8737A"
+        />
+        <CertificationCard
+          logo="oracle.png"
           name="Oracle Cloud Infrastructure 2025 Certified DevOps Professional"
           date="2025"
           verificationLink="https://catalog-education.oracle.com/ords/certview/sharebadge?id=0A2D345FEDDA555516ACE2A93F9EF55527B51F2D86FDC204DE86FE690C275D3E"
