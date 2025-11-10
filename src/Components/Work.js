@@ -26,16 +26,16 @@ export default function () {
           logo="nxci.png"
           company="NxC International"
           title="Software Engineer Intern"
-          years="02/2024-09/2024"
+          years="02/2024-07/2024"
           description="Applied advanced software engineering concepts to optimize system performance, achieving a 40% increase in efficiency. Implemented Agile and Kanban methodologies to streamline development workflows, ensuring faster and more organized delivery. Collaborated with cross-functional teams to develop and deliver high-quality backend features using Python, and contributed to the successful deployment of internal tools that are now used across multiple departments."
         />
         <WorkCard
           current={true}
-          logo="fiverr.png"
-          company="FIVERR"
-          title="Full-Stack Developer & Graphic Designer Freelancer"
-          years="2020-NOW"
-          description="As a Full Stack Developer and freelancer, I have worked with over 300 clients worldwide, delivering web applications that combine strong functionality with clean, user-friendly design. With expertise in modern frontend technologies like React.js and backend frameworks such as Laravel, Node.js, and Python, I create scalable, efficient solutions while applying over seven years of professional graphic design experience to craft visually engaging and intuitive interfaces."
+          logo="nxci.png"
+          company="NxC International"
+          title="Software Engineer"
+          years="08/2024-08/2025"
+          description="Applied advanced software engineering concepts to optimize system performance, achieving a 40% increase in efficiency. Implemented Agile and Kanban methodologies to streamline development workflows, ensuring faster and more organized delivery. Collaborated with cross-functional teams to develop and deliver high-quality backend features using Python, and contributed to the successful deployment of internal tools that are now used across multiple departments."
         />
       </div>
     </div>
