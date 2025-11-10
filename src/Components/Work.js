@@ -1,7 +1,7 @@
 import React from "react";
 import WorkCard from "./WorkCard";
 
-export default function () {
+export default function Work() {
   return (
     <div className="work component">
       <h1>

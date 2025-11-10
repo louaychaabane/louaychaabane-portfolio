@@ -11,7 +11,7 @@ export default function Header() {
     return (
         <div className="header">
             <div className="logo-name" onClick={scrollToAbout}>
-                <img src={require("../images/logo.png")} className="logo-lch" />
+                <img src={require("../images/logo.png")} className="logo-lch" alt=""/>
                 <p>Louay | Software Engineer</p>
             </div>
             <button className="hamburger" onClick={() => {

@@ -14,7 +14,7 @@ export default function About() {
             <h4><span className="rect-s">+50</span> IT Projects ({new Date().getFullYear() - 2022} years)</h4>
             <h4><span className="rect-s">+500</span> Graphic Design Projects ({new Date().getFullYear() - 2018} years)</h4>
             <h4><span className="rect-s">4</span> Training sessions presented</h4>
-            <img src={require("../images/avatar.png")} className="avatar" />
+            <img src={require("../images/avatar.png")} className="avatar" alt=""/>
             <div class="flex-center">
                 <a href="https://www.linkedin.com/in/chaabane-louay" target="_blank"><i class="fa fa-linkedin fa-4x icon-3d"></i></a>
                 <a href="https://www.instagram.com/lchdesigner/" target="_blank"><i class="fa fa-instagram fa-4x icon-3d"></i></a>

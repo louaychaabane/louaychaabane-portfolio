@@ -14,7 +14,7 @@ export default function SocialLife() {
                     date="January 2023 - December 2023"
                     dateClassName="custom-date-class"
                     iconStyle={{ background: 'white', color: '#fff' }}
-                    icon={<img src={require("../images/jci.png")} className="social-life-logo" />}
+                    icon={<img src={require("../images/jci.png")} className="social-life-logo" alt=""/>}
                 >
                     <h3 className="vertical-timeline-element-title">JCI Ouedhref</h3>
                     <h4 className="vertical-timeline-element-subtitle">Treasurer</h4>
@@ -25,7 +25,7 @@ export default function SocialLife() {
                     date="January 2022 - December 2022"
                     dateClassName="custom-date-class"
                     iconStyle={{ background: 'white', color: '#fff' }}
-                    icon={<img src={require("../images/jci.png")} className="social-life-logo" />}
+                    icon={<img src={require("../images/jci.png")} className="social-life-logo" alt=""/>}
                 >
                     <h3 className="vertical-timeline-element-title">JCI Ouedhref</h3>
                     <h4 className="vertical-timeline-element-subtitle">Media Manager</h4>
@@ -36,7 +36,7 @@ export default function SocialLife() {
                     date="October 2021 - August 2022"
                     dateClassName="custom-date-class"
                     iconStyle={{ background: 'white', color: '#fff' }}
-                    icon={<img src={require("../images/psd.png")} className="social-life-logo" />}
+                    icon={<img src={require("../images/psd.png")} className="social-life-logo" alt=""/>}
                 >
                     <h3 className="vertical-timeline-element-title">Problem Solving Division (hosted by IEEE ISSATSo SB CS)</h3>
                     <h4 className="vertical-timeline-element-subtitle">Web Master</h4>
@@ -47,7 +47,7 @@ export default function SocialLife() {
                     date="August 2021 - December 2022"
                     dateClassName="custom-date-class"
                     iconStyle={{ background: 'white', color: '#fff' }}
-                    icon={<img src={require("../images/ieee.png")} className="social-life-logo" />}
+                    icon={<img src={require("../images/ieee.png")} className="social-life-logo" alt=""/>}
                 >
                     <h3 className="vertical-timeline-element-title">IEEE ISSATSO Student Branch</h3>
                     <h4 className="vertical-timeline-element-subtitle">Member</h4>
@@ -59,7 +59,7 @@ export default function SocialLife() {
                     date="September 2020 - June 2021"
                     dateClassName="custom-date-class"
                     iconStyle={{ background: 'white', color: '#fff' }}
-                    icon={<img src={require("../images/nateg.png")} className="social-life-logo" />}
+                    icon={<img src={require("../images/nateg.png")} className="social-life-logo" alt=""/>}
                 >
                     <h3 className="vertical-timeline-element-title">NATEG ISSATSO Student Chapter</h3>
                     <h4 className="vertical-timeline-element-subtitle">Media Manager</h4>

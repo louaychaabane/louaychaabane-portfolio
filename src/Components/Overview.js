@@ -62,31 +62,31 @@ export default function Overview() {
         <i class="devicon-react-original-wordmark colored"></i>
         <i class="devicon-bootstrap-plain colored"></i>
 
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt=""/>
 
         <i class="devicon-flask-original-wordmark colored"></i>
 
         <i class="devicon-selenium-original"></i>
 
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt=""/>
 
         <i class="devicon-laravel-plain-wordmark colored"></i>
 
         <i class="devicon-nodejs-plain-wordmark colored"></i>
 
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" alt=""/>
         <i class="devicon-github-original-wordmark "></i>
         <i class="devicon-docker-plain-wordmark colored"></i>
 
         <i class="devicon-gitlab-plain-wordmark colored"></i>
 
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt=""/>
 
         <i class="devicon-kubernetes-plain colored"></i>
 
         <i class="devicon-terraform-plain colored"></i>
 
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt=""/>
 
         <i class="devicon-photoshop-plain colored"></i>
 

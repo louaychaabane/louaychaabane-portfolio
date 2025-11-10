@@ -15,7 +15,7 @@ export default function ProjectCard(props) {
     }, []);
     return (
         <div className="project-card">
-            <img src={require(`../images/${images[imageIndex]}`)} />
+            <img src={require(`../images/${images[imageIndex]}`)} alt=""/>
             <h3>{props.title}</h3>
             <p>{props.description}</p>
             <p>
