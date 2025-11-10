@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Background from './Components/Background';
 import Header from './Components/Header';
@@ -8,7 +7,7 @@ import Work from './Components/Work';
 import Projects from './Components/Projects';
 import SocialLife from './Components/SocialLife';
 import Testimonials from './Components/Testimonials';
-import { SpeedInsights } from "@vercel/speed-insights/react"
+// import { SpeedInsights } from "@vercel/speed-insights/react"
 import Certifications from './Components/Certifications';
 
 function App() {

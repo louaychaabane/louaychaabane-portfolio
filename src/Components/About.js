@@ -12,15 +12,15 @@ export default function About() {
             
             <h3>a <TypingEffect words={words} speed={typingSpeed} /></h3>
             <h4><span className="rect-s">+50</span> IT Projects ({new Date().getFullYear() - 2022} years)</h4>
-            <h4><span className="rect-s">+500</span> Graphic Design Projects ({new Date().getFullYear() - 2018} years)</h4>
+            <h4><span className="rect-s">+400</span> Graphic Design Projects ({new Date().getFullYear() - 2018} years)</h4>
             <h4><span className="rect-s">4</span> Training sessions presented</h4>
             <img src={require("../images/avatar.png")} className="avatar" alt=""/>
             <div class="flex-center">
-                <a href="https://www.linkedin.com/in/chaabane-louay" target="_blank"><i class="fa fa-linkedin fa-4x icon-3d"></i></a>
-                <a href="https://www.instagram.com/lchdesigner/" target="_blank"><i class="fa fa-instagram fa-4x icon-3d"></i></a>
-                <a href="https://github.com/louaychaabane" target="_blank"><i class="fa fa-github fa-4x icon-3d"></i></a>
-                <a href="https://www.behance.net/louaychaabane" target="_blank"><i class="fa fa-behance fa-4x icon-3d"></i></a>
-                <a href="https://t.me/louaychaabane" target="_blank"><i class="fa fa-telegram fa-4x icon-3d"></i></a>
+                <a href="https://www.linkedin.com/in/chaabane-louay" target="_blank" rel="noreferrer"><i class="fa fa-linkedin fa-4x icon-3d"></i></a>
+                <a href="https://www.instagram.com/lchdesigner/" target="_blank" rel="noreferrer"><i class="fa fa-instagram fa-4x icon-3d"></i></a>
+                <a href="https://github.com/louaychaabane" target="_blank" rel="noreferrer"><i class="fa fa-github fa-4x icon-3d"></i></a>
+                <a href="https://www.behance.net/louaychaabane" target="_blank" rel="noreferrer"><i class="fa fa-behance fa-4x icon-3d"></i></a>
+                <a href="https://t.me/louaychaabane" target="_blank" rel="noreferrer"><i class="fa fa-telegram fa-4x icon-3d"></i></a>
             </div>
         </div>
 

@@ -9,13 +9,15 @@ export default function ProjectCard(props) {
             setImageIndex(prevIndex => (prevIndex + 1) % images.length);
         }, 2500);
 
-        return () => {
-            clearInterval(interval);
-        };
-    }, []);
+        return () => clearInterval(interval);
+    }, [images.length]); // ✅ Added dependency
+
     return (
         <div className="project-card">
-            <img src={require(`../images/${images[imageIndex]}`)} alt=""/>
+            <img 
+                src={require(`../images/${images[imageIndex]}`)} 
+                alt={props.title || "Project image"}  // ✅ added alt text for accessibility
+            />
             <h3>{props.title}</h3>
             <p>{props.description}</p>
             <p>
@@ -23,7 +25,6 @@ export default function ProjectCard(props) {
                 {props.tag2 && <span className="color-tag2">#{props.tag2} </span>}
                 {props.tag3 && <span className="color-tag3">#{props.tag3} </span>}
             </p>
-
         </div>
-    )
+    );
 }
